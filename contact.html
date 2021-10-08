@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.css">
+    <link rel ="stylesheet" href="css/style.css">
+    <title>Ballinakill Rugby Football Club</title>
+</head>
+
+<body>
+    <header class="ui grid container">
+<div class="nine wide column">
+<h1>Ballinakill Rugby Football Club </h1>
+<p>Oldest rugby club in Ballinakill, Waterford!</p>
+</div>
+ <div class="seven wide column"> <img src="images/crest.png" alt = "Old Boys" class="ui middle aligned small image" >
+ </div> 
+ </header>
+<div id = "content" class = "ui grid stackable container">
+<nav class="ui top attatched tabular menu">
+      <a class="item" href="index.html">Home</a>
+      <a class="active item" href="contact.html">Contact Us</a>
+      <a class="item" href="league.html">League Table</a>
+      <div class="menu">
+  <div class="ui dropdown item">
+    Image Gallery
+    <i class="ui dropdown icon"></i>
+    <div class="menu">
+      <a class="item" href="2010gallery.html">2010s</a>
+      <a class="item" href="2000gallery.html">2000s</a>
+    </div>
+  </div>
+</div>
+</nav>
+</div>  
+<main><br>
+ <h2 class="title">Get in contact with us!</h2>
+<section>
+    <article  class="ui grid container">
+<div class=" sixteen wide column">   
+    <p>If you would like to receive regular updates about our rugby club, please fill out the form below to stay up to date!</p>
+</div></article>
+<article class="ui grid container">
+ <form action="process.html" method="get" id = "contact" class="ui form">
+<div class = "field">
+<label for = "name" class="three wide field">Name:</label>
+    <input type="text" name="name" id="name" class="eight wide field" required pattern = "[A-Z][a-z]+( [A-Z][a-z]+)*"><br>
+<label for = "number" class="three wide field">Telephone Number:</label>
+    <input type="tel" name="number" id="number" class="eight wide field" required pattern = "^(\(\d{3}\)|\d{3})-?\d{6,9}$"><br>
+<label for = "email" class="three wide field">Email Address: </label>
+<input type="email" name="email" id="email" class="eight wide field" required pattern = "^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$"><br>
+<br>
+    <p>Please provide any other details you think will be useful to us in the text area below (it may save us calling or emailing you, and help avoid delays)</p>
+    <label for = "comments" >More details (as much as you think we'll need)</label><br>
+<textarea id="comments" name="comments" rows = "5" cols="40" required>
+</textarea>
+<p>Would you like us to email and/or text you?</p>
+<input type="checkbox" name="use" id="check1" value="subscribe" checked="checked" style="float:left" >
+<label for = "check1" style="float:left">Subscribe to our newsletter via email.</label>
+<br><input type="checkbox" name="mail" id="check2" value="mailing" style="clear:left;float:left">
+<label for = "check2" style="float:left">Subscribe to our newsletter via text.</label><br><br>
+<p>Ballinakill RFC may use your information to promote club events and the club in general. Please confirm if you are happy for us to do this.</p>
+    <br><input style="float:left" type="radio" name="format" id = "radio" value="text" checked="checked">
+<label for = "radio" style="float:left" > I am happy for my information to be used to promote the club</label><br><br>
+    <input style="float:left" type="radio" name="format" id = "radio2" value="text" checked="checked">
+<label for = "radio2" style="float:left"> I would rather my information not be used to promote the club</label><br><br>
+<div class="ui grid container">
+<div class="three wide center aligned column">
+<input style="clear:left" type="submit" value="Submit" class="ui green big button"></div>
+<div class="three wide center aligned column">
+    <input type="reset" value = "Clear" class="ui red big button"></div><br>
+    </div>
+    
+    </div>
+</form>
+</article>
+</section>
+</main>
+<br><br>
+<footer style="border-top: .4em dashed #bf0007">
+    <br>
+<h2 class="title">Our Sponsors</h2>
+    <div class="ui grid stackable container">
+    <div class="four wide computer eight wide mobile column"><img src="images/cove.png" alt = "The Cove" class="ui big image"></div>
+    <div class="four wide computer eight wide mobile column"><img src="images/wit.png" alt = "The Wit" class="ui big image"></div>
+    <div class="four wide computer eight wide mobile column"><img src="images/tower.png" alt = "The Tower" class="ui big image"></div>
+    <div class="four wide computer eight wide mobile column"><img src="images/crystal.png" alt = "The Crystal" class="ui big image"></div>
+    </div><br>
+    <div class="ui grid container">
+    <div class="sixteen wide center aligned column">
+    <a href="#top" class="ui huge button"><i class="arrow alternate circle up icon"></i>Back to the top</a>
+    </div>
+    </div>
+    </footer>
+
+
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+<script  src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.js"></script>
+    <script>
+  $('.ui.dropdown').dropdown();
+</script>
+</body>
+</html>

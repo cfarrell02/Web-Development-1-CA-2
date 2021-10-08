@@ -1,0 +1,110 @@
+body{
+    background-color: #17191a;
+    color: #C3C2BF;
+}
+.ui.container {
+  margin-top:2em;
+}
+.ui.tabular.menu{
+    border-bottom-color: #bf0007;
+}
+.ui.tabular.menu .item{
+    font-family: sans-serif;
+    color: #C3C2BF;
+    font-weight: bold;
+}
+.ui.tabular.menu .item:hover{
+    background-color: #c9595d;
+    color: #C3C2BF;
+}
+.ui.tabular.menu .active.item{
+    border-color: #c9595d;
+}
+.ui.tabular.menu .active.item{
+    background-color: #bf0007;
+    color: #C3C2BF;
+    border-color: #bf0007;
+}
+.ui.compact.menu{
+    border: 0em;
+}
+h1{
+    font-size: 300%;
+}
+span{
+    color: #F21919;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 125%;
+}
+p{
+    font-size: 150%;
+}
+.title{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 250%;
+    color:#F21919;
+}
+.ui.selectable.table thead th{
+    background-color: rgba(200, 50, 50, 1);
+}
+.ui.selectable.table thead th:hover{
+    background-color: rgba(200, 50, 50, .4);
+}
+.ui.selectable.table tbody tr:nth-child(1){
+    background-color: #051161;
+}
+.ui.selectable.table tbody tr:nth-child(2){
+    background-color: #142689;
+}
+.ui.selectable.table tfoot tr{
+    background-color: #47292A;
+}
+.ui.selectable.table tfoot tr:hover{
+    background-color: rgba(158, 76, 76, .3);
+}
+.ui.selectable.table{
+    color:#C3C2BF;
+    background-color: #161819;
+    font-size: 150%;
+}
+#win{
+    background-color: #051161;
+    height:100%;
+    text-align: center;
+}
+#qual{
+    background-color: #142689;
+    height:100%;
+    text-align: center;
+}
+#rel{
+    background-color: #47292A;
+    height:100%;
+    text-align: center;
+}
+.ui.top.attatched.tabular.menu .item, .ui.relaxed.divided.list .item{
+    font-size: 150%;
+}
+.ui.message{
+    background-color: #832B2E;
+    font-family: "Time New Roman";
+    font-weight: bold;
+    color: #C3C2BF;
+}
+form#contact label{
+    color: #C3C2BF;
+    font-size: 120%
+}
+.ui.button{
+    background-color: #222526;
+    color: #C3C2BF;
+}
+.ui.button:hover{
+   background-color: #323739; 
+    color: #C3C2BF;
+}
+.ui.relaxed.divided.list .description{
+    color: #C3C2BF;
+}
